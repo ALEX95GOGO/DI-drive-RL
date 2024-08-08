@@ -1,0 +1,5 @@
+gnome-terminal -- bash -c "SINGULARITYENV_SDL_VIDEODRIVER=offscreen singularity exec --nv -e ../../../carla-0.9.11.sif /home/carla/CarlaUE4.sh -carla-port=9040; exec bash" 
+gnome-terminal -- bash -c "SINGULARITYENV_SDL_VIDEODRIVER=offscreen singularity exec --nv -e ../../../carla-0.9.11.sif /home/carla/CarlaUE4.sh -carla-port=9042; exec bash" 
+gnome-terminal -- bash -c "SINGULARITYENV_SDL_VIDEODRIVER=offscreen singularity exec --nv -e ../../../carla-0.9.11.sif /home/carla/CarlaUE4.sh -carla-port=9044; exec bash" 
+gnome-terminal -- bash -c "SINGULARITYENV_SDL_VIDEODRIVER=offscreen singularity exec --nv -e ../../../carla-0.9.11.sif /home/carla/CarlaUE4.sh -carla-port=9046; exec bash" 
+gnome-terminal -- bash -c "SINGULARITYENV_SDL_VIDEODRIVER=offscreen singularity exec --nv -e ../../../carla-0.9.11.sif /home/carla/CarlaUE4.sh -carla-port=9048; exec bash" 

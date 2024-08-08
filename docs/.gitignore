@@ -1,0 +1,4 @@
+make.bat
+static/
+build/
+__pycache__/
